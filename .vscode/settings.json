@@ -54,4 +54,18 @@
             "url": "./data/schemas/keymap.jsonschema"
         }
     ]
+
+    ,
+  "terminal.integrated.profiles.windows": {
+    "QMK_MSYS": {
+      "path": "C:/QMK_MSYS/shell_connector.cmd",
+      "env": {
+        "CHERE_INVOKING": "1"   // prevent MSYS from jumping to HOME
+      }
+
+
+    }
+  }
+
+
 }
